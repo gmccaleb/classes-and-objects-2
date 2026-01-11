@@ -28,7 +28,7 @@ public class BetterStudentManager {
 
     public String getStudentList() {
         String results = new String();
-        String newLine = System.lineSeparator();
+
 
         for (Student student : students ){
             results += student.name + " " + student.grade + "\n";
