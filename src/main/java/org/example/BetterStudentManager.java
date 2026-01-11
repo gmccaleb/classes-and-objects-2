@@ -31,7 +31,7 @@ public class BetterStudentManager {
         String newLine = System.lineSeparator();
 
         for (Student student : students ){
-            results += student.name + "\t" + student.grade + newLine;
+            results += student.name + " " + student.grade + "\n";
         }
 
 
